@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    background-color: rgb(26, 97, 53);
+    height: 7vh;
+  }
+
+  h1 {
+    padding-top: 2%;
+    color: aliceblue;
+  }
+
+  .main {
+    border-bottom: 2px solid lightgray;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+
+  .foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+  }
+
+  .foto > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+  }
+
+  .info {
+    text-align: center;
+    width: 180px;
+    height: 200px;
+  }
+
+  dt {
+    margin-top: 20px;
+    text-align: left;
+    list-style: none;
+  }
+}
